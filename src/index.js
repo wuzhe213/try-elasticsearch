@@ -7,7 +7,7 @@ var client = require('./connection.js');
 
 app.set('port', process.env.port || 4000);
 
-var allowCrossDomain = function (req, res, next) {
+const allowCrossDomain = function (req, res, next) {
     res.header('Access-Control-Allow-Origin', 'http://localhost:3000');
     res.header('Access-Control-Allow-Methods', 'PUT, GET, POST');
     res.header('Access-Control-Allow-Headers', 'Content-Type');
