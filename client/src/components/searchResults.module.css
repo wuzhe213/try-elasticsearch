@@ -1,0 +1,6 @@
+.searchResults {
+    width: 800px;
+    flex: 1;
+    margin-top: 32px;
+    background-color: rgb(199, 243, 236);
+}
